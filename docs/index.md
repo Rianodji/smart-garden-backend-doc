@@ -43,9 +43,9 @@ But : fournir une architecture simple, robuste et prête à implémentation pour
 flowchart LR
   UserApp[App Web / Mobile]
   API[API NestJS]
-  IoTConnector[IoT Connector (module)]
-  Postgres[PostgreSQL]
-  TSDB[TimeSeries DB (InfluxDB/Timescale)]
+  IoTConnector[IoT Connector - module]
+  Postgres[(PostgreSQL)]
+  TSDB[(TimeSeries DB - InfluxDB / Timescale)]
   Actuator[Actuator Gateway]
   Logger[Logs & Monitoring]
 
