@@ -39,6 +39,7 @@ But : fournir une architecture simple, robuste et prête à implémentation pour
 
 ### Diagramme d’architecture (Mermaid)
 ```mermaid
+
 flowchart LR
   UserApp[App Web / Mobile]
   API[API NestJS]
